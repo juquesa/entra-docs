@@ -15,7 +15,9 @@ ms.custom: it-pro, has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 ---
 # Delete a tenant in Microsoft Entra ID
 
-When an organization (tenant) is deleted in Microsoft Entra ID, all resources in the organization are also deleted. Prepare your organization by minimizing its associated resources before you delete. Only a global administrator can delete a Microsoft Entra organization from the Microsoft Entra Admin center.
+When an organization (tenant) is deleted in Microsoft Entra ID, all resources in the organization are also deleted. Prepare your organization by minimizing its associated resources before you delete. Consequently, Microsoft is unable to restore a deleted tenant following its deletion. 
+
+Only a global administrator can delete a Microsoft Entra organization from the Microsoft Entra Admin center. 
 
 ## Prepare the organization
 
@@ -49,6 +51,9 @@ Check the following conditions:
    :::image type="content" source="./media/directory-delete-howto/manage-tenants-delete-command.png" alt-text="Screenshot that shows the button for deleting an organization.":::
 
 1. If your organization doesn't pass one or more checks, you'll get a link to more information on how to pass. After you pass all checks, select **Delete** to complete the process.
+
+> [!Important]
+> Tenant deletion is irreversible.
 
 ## Deprovision subscriptions to allow organization deletion
 
