@@ -19,6 +19,9 @@ The **Synchronization Service Manager** UI is used to configure more advanced as
 You start the **Synchronization Service Manager** UI from the start menu. It is named **Synchronization Service** and can be found in the **Microsoft Entra Connect** group.  
 ![Sync Service Manager](./media/how-to-connect-sync-service-manager-ui/startmenu.png)
 
+> [!NOTE]
+> Including or excluding domains, organizational units (OUs), object types, or attributes through the Synchronization Service Manager UI isn't supported. To configure synchronization filtering, use the Microsoft Entra Connect wizard instead. For more information, see [Customize an installation of Microsoft Entra Connect](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-install-custom#domain-and-ou-filtering)
+
 ## Next steps
 
 Learn more about the Synchronization Service Manager UI, including [Operations](how-to-connect-sync-service-manager-ui-operations.md), [Connectors](how-to-connect-sync-service-manager-ui-connectors.md), [Metaverse Designer](how-to-connect-sync-service-manager-ui-mvdesigner.md), and [Metaverse Search](how-to-connect-sync-service-manager-ui-mvsearch.md) tabs.
